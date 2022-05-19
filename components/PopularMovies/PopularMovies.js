@@ -40,11 +40,11 @@ export default function PopularMovies() {
     },
     movie: {
       alignItems: 'center',
-      margin: 12,
+      margin: 16,
     },
     moviePoster: {
-      width: 100,
-      height: 150,
+      width: 140,
+      height: 200,
     },
     listTitle: {
       fontSize: 16,
@@ -56,6 +56,8 @@ export default function PopularMovies() {
       color: '#fff',
       fontWeight: 'bold',
       paddingTop: 8,
+      width: '100%',
+      textAlign: 'center',
     }
   });
   
