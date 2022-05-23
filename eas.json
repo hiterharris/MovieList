@@ -1,7 +1,4 @@
 {
-  "cli": {
-    "version": ">= 0.52.0"
-  },
   "build": {
     "development": {
       "developmentClient": true,
@@ -10,9 +7,10 @@
     "preview": {
       "distribution": "internal"
     },
-    "production": {}
-  },
-  "submit": {
-    "production": {}
+    "production": {
+      "env": {
+        "MOVIE_DB_API_KEY": "727ef961992c940d049df733d71e6951"
+      }
+    }
   }
 }
